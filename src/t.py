@@ -1,17 +1,27 @@
-# -*- coding: utf-8 -*-
+import sys, random, os
+sys.path.append(os.path.dirname(__file__))
 
-# @Time : 2020/5/9 12:29
-# @Author : yfdai
+from PyQt5.QtWidgets import QApplication, QMainWindow
+from ui.table_test import Ui_MainWindow
+from PyQt5.QtCore import pyqtSignal, Qt
+
+import pandas as pd
+from config import fd_project
+from os.path import join as pjoin
 
 
-import time
-import sys
+class MyTable(QMainWindow, Ui_MainWindow):
+    def __init__(self, parent=None):
+        super(MyTable, self).__init__(parent)
+        self.setupUi(self)
+        self.init_UI()
+    
+    def init_UI(self):
+        pass
 
 
-animation = "|/-\\"
-
-for i in range(100):
-    time.sleep(0.1)
-    sys.stdout.write("\r" + animation[i % len(animation)])
-    sys.stdout.flush()
-print("End!")
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    win = MyTable()
+    win.show()
+    sys.exit(app.exec_())

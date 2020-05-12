@@ -5,3 +5,5 @@
 
 
 fd_project = r'E:\Programing\python\ricite'
+
+show_hint = False
