@@ -61,8 +61,8 @@
    <widget class="QLabel" name="t1">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>100</y>
+      <x>380</x>
+      <y>50</y>
       <width>54</width>
       <height>12</height>
      </rect>
@@ -77,8 +77,8 @@
    <widget class="QLabel" name="t2">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>100</y>
+      <x>460</x>
+      <y>50</y>
       <width>54</width>
       <height>12</height>
      </rect>

@@ -4,6 +4,8 @@
 # @Author : yfdai
 
 
-fd_project = r'E:\Programing\python\ricite'
+import os
+
+fd_project = os.path.join(os.path.dirname(__file__), '..')
 
 show_hint = False

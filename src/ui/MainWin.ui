@@ -6,29 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>417</height>
+    <width>796</width>
+    <height>425</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QComboBox" name="listChosenBox">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>20</y>
-      <width>131</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QPushButton" name="confirmBtn">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>20</y>
+      <x>280</x>
+      <y>50</y>
       <width>31</width>
       <height>31</height>
      </rect>
@@ -40,7 +30,7 @@
    <widget class="QLabel" name="mainText">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>40</x>
       <y>110</y>
       <width>391</width>
       <height>111</height>
@@ -63,7 +53,7 @@
    <widget class="QLabel" name="meanText">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>50</x>
       <y>220</y>
       <width>361</width>
       <height>111</height>
@@ -89,8 +79,8 @@
    <widget class="QPushButton" name="resetBtn">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>20</y>
+      <x>320</x>
+      <y>50</y>
       <width>31</width>
       <height>31</height>
      </rect>
@@ -102,8 +92,8 @@
    <widget class="QCheckBox" name="showCheck">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>60</y>
+      <x>290</x>
+      <y>90</y>
       <width>101</width>
       <height>16</height>
      </rect>
@@ -118,8 +108,8 @@
    <widget class="QLabel" name="pronText">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>140</y>
+      <x>40</x>
+      <y>130</y>
       <width>391</width>
       <height>111</height>
      </rect>
@@ -141,9 +131,9 @@
    <widget class="QLCDNumber" name="currentlcd">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>460</x>
       <y>20</y>
-      <width>231</width>
+      <width>151</width>
       <height>81</height>
      </rect>
     </property>
@@ -156,9 +146,9 @@
    <widget class="QLCDNumber" name="nextlcd">
     <property name="geometry">
      <rect>
-      <x>550</x>
+      <x>640</x>
       <y>20</y>
-      <width>231</width>
+      <width>151</width>
       <height>81</height>
      </rect>
     </property>
@@ -171,8 +161,8 @@
    <widget class="QPushButton" name="shuffleBtn">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>20</y>
+      <x>360</x>
+      <y>50</y>
       <width>31</width>
       <height>31</height>
      </rect>
@@ -181,13 +171,49 @@
      <string>S</string>
     </property>
    </widget>
+   <widget class="QListWidget" name="listlistwidget">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>10</y>
+      <width>191</width>
+      <height>131</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="passbtn">
+    <property name="geometry">
+     <rect>
+      <x>104</x>
+      <y>320</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PASS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="remainbtn">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>320</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>REMAIN</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>796</width>
      <height>23</height>
     </rect>
    </property>
